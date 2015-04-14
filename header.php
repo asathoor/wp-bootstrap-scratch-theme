@@ -17,9 +17,10 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 <!-- the THEME CSS -->
-<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+<!-- incorrect, but works sort of ...-->
+<!-- link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" / -->
 
-<!-- wp_head() -->
+<!-- wp_head() loads styles and scripts -->
 <?php wp_head(); ?>
 
 

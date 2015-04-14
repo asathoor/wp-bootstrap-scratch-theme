@@ -1,5 +1,17 @@
 <?php
-// menu
+/**
+ * Proper way to enqueue scripts and styles
+ */
+function add_my_stylesheet() {
+	wp_enqueue_style( 'style.css', get_stylesheet_uri() );
+}
+add_action( 'wp_enqueue_scripts', 'add_my_stylesheet' );
+
+
+/**
+ * How to add a menu
+ */
+ 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu' )); // menu defined as header menu
 }
