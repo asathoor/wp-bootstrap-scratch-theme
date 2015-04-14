@@ -1,0 +1,31 @@
+/*
+Theme Name: (00) Per's Bootstrap Experiment
+Theme URI: http://multimusen.dk
+Author: Per Thykjær Jensen
+Author URI: http://multimusen.dk
+Description: A simple bootstrap based template. Based on the W3schools tutorial.
+Version: 0.1
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: petj_bootstrap
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body {
+	background-color: orange;
+}
+
+div .container-fluid p {
+	color: green;
+	background-color: orange;
+}
+
+p {
+	color: green;
+}
+
+.jumbotron {
+	background-color: pink;
+}
